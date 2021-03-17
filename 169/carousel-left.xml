@@ -14,7 +14,7 @@
 			<color>00000000</color>
 			<origin>0 0</origin>
 			<logoAlignment>center</logoAlignment>
-			<maxLogoCount>7</maxLogoCount>
+			<maxLogoCount>3</maxLogoCount>
 			<zIndex>29</zIndex>
 		</carousel>
 

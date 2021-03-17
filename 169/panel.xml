@@ -24,7 +24,7 @@
       <color>ffffff00</color>
       <logoScale>1.15</logoScale>
       <logoSize>0.18 .3</logoSize>
-      <maxLogoCount>5</maxLogoCount>
+      <maxLogoCount>3</maxLogoCount>
     <logoAlignment>right</logoAlignment>
       <defaultTransition>instant</defaultTransition>	
     </carousel>
