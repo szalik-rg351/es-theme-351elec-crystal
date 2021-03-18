@@ -2,8 +2,7 @@
 
 <theme>
   <formatVersion>4</formatVersion>
-
-     <include>./../systems/${system.theme}.xml</include>  
+ 
    <include>./common.xml</include>
 
 
@@ -13,18 +12,24 @@
 
     <carousel name="systemcarousel">
      <type>horizontal</type>
-     <pos>-0.32 -0.32</pos>
+     <pos>0 0</pos>
       <size>1 1</size>
       <color>ffffff00</color>
-      <logoScale>1</logoScale>
-      <logoSize>0.3 0.8</logoSize>
+      <logoScale>1.5</logoScale>
+      <logoSize>0.45 0.45</logoSize>
       <maxLogoCount>1</maxLogoCount>
-    <logoAlignment>left</logoAlignment>
+    <logoAlignment>center</logoAlignment>
       <defaultTransition>instant</defaultTransition>	
     </carousel>
    
-    <text name="systemInfo">
-         <pos>0.007 0.893</pos>
+   <text name="systemInfo">
+         <pos>0.00 0.738</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>${cinfotext}</color>
+          <size>1 0</size>
+         <alignment>center</alignment>
+         <fontPath>./../fonts/OpenSans-Bold.ttf</fontPath>
+         <fontSize>0.10</fontSize>
    </text>
 	  
    <helpsystem name="help"> 
@@ -35,7 +40,7 @@
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>
-         <path>./assets/filters/${themecolor}/bg_topbar.svg</path>
+         <path>./assets/filters/${themecolor}/crt-band.svg</path>
       </image>
 
 	   <text name="logoText">
