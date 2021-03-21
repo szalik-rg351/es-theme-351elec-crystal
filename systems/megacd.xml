@@ -16,12 +16,14 @@
     </image>
 
 
+
 	  <text name="shortdescription" extra="true">
-   <text>8-bit Virtual Machine</text>
+   <text>1991  ·  16-bit Console</text>
   </text>
 		<text name="description" extra="true">
-			<text>${pico-8}</text>
+			<text>${megacd}</text>
 		</text>
 		
+
 	</view>
 </theme>
